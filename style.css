@@ -56,58 +56,85 @@ li a{
     padding: 0;
 }
 section {
-  padding: 60px 10%;
+    padding: 60px 10%;
 }
 
 .destaques {
-  text-align: center;
-  padding: 60px 10%;
+    text-align: center;
+    padding: 60px 10%;
 }
 
 .destaques h2 {
     font-family: "Julee", cursive;
     font-size: 2.5em;
     color: #000000;
-    margin-bottom: 40px; /* afasta o título das imagens */
+    margin-bottom: 40px; 
 }
 
 .pratos-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap; /* quebra linha se não couber na tela */
-  gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .prato {
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  padding: 20px;
-  width: 280px;
-  transition: transform 0.3s;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 280px;
+    transition: transform 0.3s;
 }
 
 .prato:hover {
-  transform: translateY(-5px);
+    transform: translateY(-5px);
 }
 
 .prato img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .prato h3 {
-  font-family: "Julee", cursive;
-  font-size: 1.5em;
-  color: #000000;
-  margin-bottom: 10px;
+    font-family: "Julee", cursive;
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 10px;
 }
+
+.equipe{
+    text-align: center;
+    padding: 60px 10%;
+}
+
+.equipe h2{
+    font-family: "Julee", cursive;
+    font-size: 2.5em;
+    color: #000000;
+    margin-bottom: 40px; 
+}
+.membro{
+    font-family: "Inter", sans-serif;
+}
+.membro h3{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+
+}
+.membro p{
+    font-size: 1,2em;
+    margin-bottom: 10px;
+}
+
+
 .main-content-wrapper {
     flex-grow: 1; 
     width: 100%; 
 }
+
 
 .principal{
     display: flex;
