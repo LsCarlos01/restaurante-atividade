@@ -55,14 +55,61 @@ li a{
     margin: 0;
     padding: 0;
 }
+section {
+  padding: 60px 10%;
+}
 
+.destaques {
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.destaques h2 {
+    font-family: "Julee", cursive;
+    font-size: 2.5em;
+    color: #000000;
+    margin-bottom: 40px; /* afasta o título das imagens */
+}
+
+.pratos-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap; /* quebra linha se não couber na tela */
+  gap: 30px;
+}
+.prato {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 280px;
+  transition: transform 0.3s;
+}
+
+.prato:hover {
+  transform: translateY(-5px);
+}
+
+.prato img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.prato h3 {
+  font-family: "Julee", cursive;
+  font-size: 1.5em;
+  color: #000000;
+  margin-bottom: 10px;
+}
 .main-content-wrapper {
     flex-grow: 1; 
     width: 100%; 
 }
 
 .principal{
-  
     display: flex;
     align-items: center;   
     justify-content: center; 
@@ -128,15 +175,15 @@ button a{
 }
 
 .imagem {
-    /* REMOVA: position: absolute; */
-    width: 50%; /* Ocupa metade da largura */
-    text-align: right; /* Alinha a imagem à direita */
+   
+    width: 50%;
+    text-align: right; 
 }
 
 .imagem img{
-    /* REMOVA: position: absolute; top: 10px; right: 10px; */
-    width: 100%; /* Garante que a imagem se ajuste ao contêiner de 50% */
-    max-width: 600px; /* Limita o tamanho máximo */
+    
+    width: 100%; 
+    max-width: 600px; 
     height: auto;
     border-radius: 1em;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
@@ -313,7 +360,8 @@ header.cardapio {
     left: 10px;
     width: 300px;
     height: 300px;
-    z-index: -1
+    z-index: -1;
+    border-radius: 1.1em;
 }
 
 .siri{
@@ -322,8 +370,10 @@ header.cardapio {
     right: 10px;
     width: 300px;
     height: 300px;
-    z-index: -1   
+    z-index: -1;
+    border-radius: 1.1em;
 }
+
 
 
 .principal-item {
@@ -382,7 +432,8 @@ header.cardapio {
     left: 10px;
     width: 300px;
     height: 300px;
-    z-index: -1
+    z-index: -1;
+    border-radius: 1.1em;
 }
 
 .historia{
