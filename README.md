@@ -1,6 +1,6 @@
 # Restaurante Jaguar Buxudo
 
-É um atividade do curso de Django.
+É uma atividade do curso de Django.
 
 ## Descrição
 Um site fictício de restaurante, com páginas HTML, estilização em CSS e interatividade com JavaScript.
